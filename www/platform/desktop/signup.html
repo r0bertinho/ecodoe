@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light">
+        <link rel="stylesheet" href="/www/css/login.css">
+        <title>sign-up</title>
+    </head>
+    <body>
+        <main>
+            <img src="/www/img/ecodoe-splash.svg">
+            <center>
+                <h6>Nome:</h6>
+                <input id="User" type="text">
+                <h6>Email:</h6>
+                <input id="Email" type="text">
+                <h6>Senha:</h6>
+                <div class="password">
+                    <input id="Password" type="password">
+                    <button id="Show"><img id="Show-img" src="/www/img/view.png"></button>
+                </div>
+                <button id="Submit" type="submit">CRIAR CONTA</button><br>
+                <a href="/www/login.html">já tenho conta</a>
+            </center>
+        </main>
+        <script src="cordova.js"></script>
+        <script src="/www/js/login.js"></script>
+    </body>
+</html>

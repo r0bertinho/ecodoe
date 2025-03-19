@@ -1,27 +1,31 @@
+@import "/www/css/globals.css";
+
 @media (max-aspect-ratio: 4/5) { 
 /* Para celular */
 body {
-  background: #ffee00;
+  background: var(--bg-primary-color);
 }
 }
 
 @media (min-aspect-ratio: 4/5) and (max-aspect-ratio: 4/3) { 
 /* Telas computador antigas */
 body {
-  background: #ff0000;
+  background: var(--bg-primary-color);
 }
 }
 
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 1.85/1) { 
 /* Telas computador atuais */
 body {
-  background: #2200ff;
+  background-image: url("/www/img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 }
 
 @media (min-aspect-ratio: 1.85/1) { 
 /* telas computador ou tv largas */
 body {
-  background: #37ff00;
+  background: var(--bg-primary-color);
 }
 }

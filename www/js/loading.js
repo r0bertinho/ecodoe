@@ -11,7 +11,11 @@ const is_mobile = function () {
 const has_redi = function () {
   let check = false;
 
-  if (/(?:http|https):\/\/ecodoe(?:\..{2,})+\/.+/.test(window.location.href)) {
+  if (
+    /(?:http|https):\/\/(?:localhost:\d+\/)?(?:ecodoe)?(?:(?:\..{2,})+|.+)\/(.+)/.test(
+      window.location.href
+    )
+  ) {
     check = true;
   }
 
@@ -23,13 +27,21 @@ function get_redi() {
     return false;
   }
 
-  let arr = /(?:http|https):\/\/ecodoe\(?:\..{2,})+\/(.+)/.exec(window.location.href);
+  let arr =
+    /(?:http|https):\/\/(?:localhost:\d+\/)?(?:ecodoe)?(?:(?:\..{2,})+|.+)\/(.+)/.exec(
+      window.location.href
+    );
 
   return arr[0];
 }
 
 function redirectToFile(file) {
-  window.location.href = file;
+  let img = document.getElementById("spinning");
+  let tag = document.getElementById("redir");
+
+  img.remove();
+  tag.textContent = "Vá para " + (has_redi ? get_redi() : "login") + "!";
+  tag.href = file;
 }
 
 function onDeviceReady() {

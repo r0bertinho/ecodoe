@@ -1,7 +1,16 @@
 :root {
+    /* cores */
     --bg-primary-color:   white;
     --bg-secondary-color: #A8D4B9;
     --fg-primary-color:   #CCE2CB;
     --fg-secondary-color: #92C0A4;
     --fg-contrast-color:  #007A2F;
+
+    /* imagens */
+    --bg-img: url("/www/img/background.svg");
+    --bg-img-logo: url("/www/img/backgroundwlogo.svg")
+
+    /* fontes */
+    --font-margarine: url("/www/font/Margarine-Regular.ttf");
+    --font-marko-one: url("/www/font/MarkoOne-Regular.ttf")
 }

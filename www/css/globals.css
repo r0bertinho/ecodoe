@@ -7,10 +7,10 @@
     --fg-contrast-color:  #007A2F;
 
     /* imagens */
-    --bg-img: url("/www/img/background.svg");
-    --bg-img-logo: url("/www/img/backgroundwlogo.svg")
+    --bg-img: url("/www/img/ecodoe-splash.svg");
+    --bg-img-logo: url("/www/img/ecodoe-splash-logo.svg");
 
     /* fontes */
     --font-margarine: url("/www/font/Margarine-Regular.ttf");
-    --font-marko-one: url("/www/font/MarkoOne-Regular.ttf")
+    --font-marko-one: url("/www/font/MarkoOne-Regular.ttf");
 }

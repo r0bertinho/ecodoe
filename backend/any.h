@@ -186,6 +186,10 @@ int main(void) {
     any_set(obj, 13);
 
     any_free(obj);
+
+    any_t obj[5];
+
+    for (int i = 0; i != sizeof(obj)/sizeof())
     return 0
 }
 

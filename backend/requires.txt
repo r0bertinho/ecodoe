@@ -1,30 +1,30 @@
 typedef union {
-    char                v_char;
-    char*               v_char_l;
-    short int           v_short;
-    short int*          v_short_l;
-    int                 v_int;
-    int*                v_int_l;
-    long int            v_long;
-    long int*           v_long_l;
-    long long           v_llong;
-    long long*          v_llong_l;
-    unsigned char       v_u_char;
-    unsigned char*      v_u_char_l;
-    unsigned short int  v_u_short;
-    unsigned short int* v_u_short_l;
-    unsigned int        v_u_int;
-    unsigned int*       v_u_int_l;
-    unsigned long int   v_u_long;
-    unsigned long int*  v_u_long_l;
-    unsigned long long  v_u_llong;
-    unsigned long long* v_u_llong_l;
-    float               v_float;
-    float*              v_float_l;
-    double              v_double;
-    double*             v_double_l;
-    long double         v_ldouble;
-    long double*        v_ldouble_l;
+                   char v_char
+                  char* v_char_l
+              short int v_short
+             short int* v_short_l
+                    int v_int
+                   int* v_int_l
+               long int v_long
+              long int* v_long_l
+              long long v_llong
+             long long* v_llong_l
+          unsigned char v_u_char
+         unsigned char* v_u_char_l
+     unsigned short int v_u_short
+    unsigned short int* v_u_short_l
+           unsigned int v_u_int
+          unsigned int* v_u_int_l
+      unsigned long int v_u_long
+     unsigned long int* v_u_long_l
+     unsigned long long v_u_llong
+    unsigned long long* v_u_llong_l
+                  float v_float
+                 float* v_float_l
+                 double v_double
+                double* v_double_l
+            long double v_ldouble
+           long double* v_ldouble_l
 } any_t;
 
 enum AnyUsing {
@@ -65,6 +65,6 @@ void set_any(any_t* obj, any_t* other) {
 }
 
 int main(void) {
-    any_t* obj;
-    return 0;
+    any_t* obj
+    return 0
 }

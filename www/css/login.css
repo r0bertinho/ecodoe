@@ -264,6 +264,33 @@ p {
 main {
   size: 100vw 100vh;
 }
+
+h6 {
+  font-size: 2.5vw;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+input {
+  width: 50vw;
+  font-size: 2.5vw;
+}
+
+.enter {
+  font-size: 3vw;
+  margin-bottom: 64px;
+}
+
+.enter:hover {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+a {
+  font-size: 3vw;
+}
 }
 
 @media (min-aspect-ratio: 4/3) { 

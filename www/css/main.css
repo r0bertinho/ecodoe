@@ -1,0 +1,28 @@
+@import "/www/css/globals.css";
+
+#menu {
+    display: none;
+}
+
+@media (max-aspect-ratio: 4/5) { 
+/* Para celular */
+
+}
+
+@media (min-aspect-ratio: 4/5) and (max-aspect-ratio: 4/3) { 
+/* Telas computador antigas */
+
+}
+
+@media (min-aspect-ratio: 4/3) { 
+/* Telas computador ou tv largas  */
+
+#menu-btn {
+    display: none;
+}
+
+#menu {
+    display: block;
+    width: 25vw;
+}
+}

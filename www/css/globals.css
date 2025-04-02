@@ -9,6 +9,10 @@
     /* imagens */
     --bg-img: url("/www/img/ecodoe-splash.svg");
     --bg-img-logo: url("/www/img/ecodoe-splash-logo.svg");
+    --bg-img-phone-logo: url("/www/img/ecodoe-background.svg");
+    --bg-slur: url("/www/img/slur.svg");
+    --logo: url("/www/img/logo.svg");
+    --menu: url("/www/img/menu.svg");
 
     /* fontes */
     --font-margarine: url("/www/font/Margarine-Regular.ttf");

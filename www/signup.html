@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
@@ -12,19 +12,27 @@
     </head>
     <body>
         <main>
-            <img src="/www/img/ecodoe-splash.svg">
+            <div id="placing">
+                <button id="return"><img src="/www/img/arrow-left.svg"></button>
+            </div>
+
             <center>
-                <h6>Nome:</h6>
-                <input id="User" type="text">
-                <h6>Email:</h6>
-                <input id="Email" type="text">
-                <h6>Senha:</h6>
-                <div class="password">
-                    <input id="Password" type="password">
-                    <button id="Show"><img id="Show-img" src="/www/img/view.png"></button>
-                </div>
-                <button id="Submit" type="submit">CRIAR CONTA</button><br>
-                <a href="/www/login.html">já tenho conta</a>
+                <h1>Bem vindo!</h1>
+                <h6 class="subtitle">Por favor, crie sua conta.</h6>
+            </center>
+
+            <h6>usuário</h6>
+            <center><input type="text"></center>
+
+            <h6>email</h6>
+            <center><input type="text"></center>
+
+            <h6>senha</h6>
+            <center><input type="password"></center>
+
+            <center>
+                <button class="enter" onclick="">CRIAR</button><br>
+                <a href="/www/login.html">Já tenho uma conta</a>
             </center>
         </main>
         <script src="/www/js/login.js"></script>

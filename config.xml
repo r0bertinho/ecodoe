@@ -5,7 +5,7 @@
     <author email="iantmessenger@gmail.com" href="https://iansouzafreire.github.io/Portfolio/">
         Ian Souza Freire and team 
     </author>
-    <content src="login.html" />
+    <content src="login.html"/>
     <preference name="ErrorUrl" value="login.html"/>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
